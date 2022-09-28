@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二维码</title>
+</head>
+<body>
+<img id="qrious">
+<script src="qrious.js"></script>
+<script>
+    var qr = new QRious({
+        element: document.getElementById('qrious'),
+        size: 250,
+        level: 'H',
+        value: 'https://qr.alipay.com/bax085784ilmhfbgdn62005b'
+    });
+</script>
+</body>
+</html>
